@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+
+
+
+* {
+  border: 1px solid black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.swiper {
+  width: 100%;
+  height: 50vh;
+}
+.slide {
+  background-image: linear-gradient(red, blue);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*   
+                                                                
+                                                                              
+              NNNNNNNN        NNNNNNNN                                        
+              N:::::::N       N::::::N                                        
+              N::::::::N      N::::::N                                        
+              N:::::::::N     N::::::N                                        
+              N::::::::::N    N::::::N  aaaaaaaaaaaaavvvvvvv           vvvvvvv
+              N:::::::::::N   N::::::N  a::::::::::::av:::::v         v:::::v 
+              N:::::::N::::N  N::::::N  aaaaaaaaa:::::av:::::v       v:::::v  
+              N::::::N N::::N N::::::N           a::::a v:::::v     v:::::v   
+              N::::::N  N::::N:::::::N    aaaaaaa:::::a  v:::::v   v:::::v    
+              N::::::N   N:::::::::::N  aa::::::::::::a   v:::::v v:::::v     
+              N::::::N    N::::::::::N a::::aaaa::::::a    v:::::v:::::v      
+              N::::::N     N:::::::::Na::::a    a:::::a     v:::::::::v       
+              N::::::N      N::::::::Na::::a    a:::::a      v:::::::v        
+              N::::::N       N:::::::Na:::::aaaa::::::a       v:::::v         
+              N::::::N        N::::::N a::::::::::aa:::a       v:::v          
+              NNNNNNNN         NNNNNNN  aaaaaaaaaa  aaaa        vvv           
+                                                                              
+                                                                                        
+                                                                                        
+                                                                
+                                                                 */
+                                                                
+                                                                
 
-.App-link {
-  color: #61dafb;
-}
+      
+      nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        width: 100%;
+        height: 5vh;
+      }
+      .logo {
+        width: 30vw;
+        background-image: linear-gradient(red, blue);
+      }
+      .links {
+        display: flex;
+        justify-content: space-around;
+        width: 70vw;
+        align-items: center;
+        margin: 0;
+      }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+      
+                                                                                    
+                                                                                    
+         /* HHHHHHHHH     HHHHHHHHH                                                             
+            H:::::::H     H:::::::H                                                             
+            H:::::::H     H:::::::H                                                             
+            HH::::::H     H::::::HH                                                             
+              H:::::H     H:::::H     ooooooooooo      mmmmmmm    mmmmmmm       eeeeeeeeeeee    
+              H:::::H     H:::::H   oo:::::::::::oo  mm:::::::m  m:::::::mm   ee::::::::::::ee  
+              H::::::HHHHH::::::H  o:::::::::::::::om::::::::::mm::::::::::m e::::::eeeee:::::ee
+              H:::::::::::::::::H  o:::::ooooo:::::om::::::::::::::::::::::me::::::e     e:::::e
+              H:::::::::::::::::H  o::::o     o::::om:::::mmm::::::mmm:::::me:::::::eeeee::::::e
+              H::::::HHHHH::::::H  o::::o     o::::om::::m   m::::m   m::::me:::::::::::::::::e 
+              H:::::H     H:::::H  o::::o     o::::om::::m   m::::m   m::::me::::::eeeeeeeeeee  
+              H:::::H     H:::::H  o::::o     o::::om::::m   m::::m   m::::me:::::::e           
+            HH::::::H     H::::::HHo:::::ooooo:::::om::::m   m::::m   m::::me::::::::e          
+            H:::::::H     H:::::::Ho:::::::::::::::om::::m   m::::m   m::::m e::::::::eeeeeeee  
+            H:::::::H     H:::::::H oo:::::::::::oo m::::m   m::::m   m::::m  ee:::::::::::::e  
+            HHHHHHHHH     HHHHHHHHH   ooooooooooo   mmmmmm   mmmmmm   mmmmmm    eeeeeeeeeeeeee  
+                                                                                                
+                                                                                                
+                                                                                                 */
+                                                                                                
+                                                                                    
+
+                                                                                    
+
+
+
+
+
+
+      
