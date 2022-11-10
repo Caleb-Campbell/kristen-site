@@ -1,5 +1,6 @@
 :root {
-  --text-color: #603D45
+  --text-color: #603D45;
+  --background: #EBE7E6
 }
 
 
@@ -126,6 +127,7 @@ body {
         font-size: 2em;
         padding: .5em;
         color: #EBB243;
+        background-color: var(--background);
       }
 
 
@@ -272,7 +274,8 @@ body {
   .title-btn {
     width: 40vw;
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: 300;
+    margin: 0 auto;
   }
 
   .swiper {
@@ -286,6 +289,9 @@ body {
   .contact {
     margin: 0;
     padding-bottom: 0;
+  }
+  .copyright p {
+    font-size: .8em;
   }
 }
 
