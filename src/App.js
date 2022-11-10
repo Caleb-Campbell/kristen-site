@@ -12,11 +12,20 @@ import Home from './components/Home';
 import './App.css';
 
 function App() {
-  return ( <div>
+  return ( <>
     <Routes>
       <Route path='/' element={<Home />} />
     </Routes>
-  </div>
+    <footer>
+      <h2 className='footer-h'>Kristen's Creations</h2>
+      <div className='footer-contents'>
+      <div className='contact'>
+      <a href = "mailto: abc@example.com">Email Kristen</a>
+      </div>
+      <div className='copyright'><p>Site by Caleb Campbell</p><p>© Copyright 2022. All Rights Reserved.</p> </div>
+      </div>
+    </footer>
+  </>
   );
 }
 

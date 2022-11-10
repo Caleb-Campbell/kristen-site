@@ -1,17 +1,50 @@
+:root {
+  --text-color: #603D45
+}
+
+
+      /* FOOTER */
+footer {
+  background-color: #EBB243;
+  opacity: .9;
+  height: 20vh;
+  padding: 1em;
+}
+
+.footer-h {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 300;
+  color: white;
+  margin: 0 auto;
+  width: 50vw;
+  text-align: center;
+  font-size: 3em;
+}
+
+.footer-contents {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.contact a {
+  text-decoration: underline;
+  color: white;
+  letter-spacing: .2em;
+  font-size: 1.3em;
+}
 
 
 
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+body {
+  background-color: #EBE7E6;
 }
 
-.swiper {
-  width: 100%;
-  height: 50vh;
-}
-.slide {
-  background-image: linear-gradient(red, blue);
-}
 
 
 /*   
@@ -42,23 +75,57 @@
                                                                 
 
       
-      nav {
+      .desk-nav {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-around;
         width: 100%;
         height: 5vh;
+        padding-top: 1em;
       }
       .logo {
         width: 30vw;
-        background-image: linear-gradient(red, blue);
+        font-family: 'Great Vibes', cursive;
+        font-weight: 300;
+        font-size: 2em;
+        text-align: center;
+        margin: 0;
+        padding: .1em;
+        transition: .5s ease;
+        cursor: pointer;
       }
+      .logo:hover {
+        color: #EBB243;
+        scale: 1.05;
+      }
+
       .links {
         display: flex;
         justify-content: space-around;
         width: 70vw;
         align-items: center;
         margin: 0;
+      }
+
+      .desk-nav div a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-family: 'Great Vibes', cursive;
+        font-weight: 400;
+        font-size: 2em;
+        transition: 1s ease;
+      }
+      nav div a:hover {
+        color: #EBB243;
+        scale: 1.05;
+
+      }
+
+      .menu-btn {
+        border: none;
+        font-size: 2em;
+        padding: .5em;
+        color: #EBB243;
       }
 
 
@@ -87,8 +154,140 @@
                                                                                                  */
                                                                                                 
                                                                                     
+ /* SWIPER LIBRARY */
+             
+.swiper {
+  width: 20vw;
+  height: 40vw;
+}
+.slide-img {
+  height: 60vh;
+  width: 20vw;
+}
 
-                                                                                    
+.spacer {
+  height: 80vh;
+}
+
+.main-title {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+.title-img {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.title-btn {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 500;
+  color: #EBB243;
+  font-size: 2.5em;
+  width: 15vw;
+  border: 2px solid #EBB243;
+  padding: .3em;
+  border-radius: 5px;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.title-btn:hover {
+  color: white;
+  background-color: #EBB243;
+}
+
+
+
+
+
+@media (max-width:428px) {
+
+  html {
+    width: 100vw;
+  }
+
+  .home {
+    width: 100%;
+  }
+
+  * {
+    /* border: 1px red solid; */
+  }
+
+  .mobile-nav {
+    height: 8vh;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .mobile-list{
+    width: 100vw;
+    height: 30vh;
+    position: absolute;
+    background-color: rgb(235, 178, 67, .7);
+    border: 1px solid red;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+
+  .mobile-nav div a {
+    width: 100vw;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 300;
+    font-size: 2em;
+  }
+
+  .yellow {
+    background-color: rgb(235, 178, 67);
+    color: white;
+  }
+
+  .spacer {
+    width: 98vw;
+  }
+
+
+
+  .main-title {
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+
+
+  .title-img {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .title-btn {
+    width: 40vw;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .swiper {
+    width: 80vw;
+  }
+
+  .footer-h {
+    font-size: 2em;
+    width: 60vw;
+  }
+  .contact {
+    margin: 0;
+    padding-bottom: 0;
+  }
+}
 
 
 
