@@ -3,6 +3,21 @@
   --background: #EBE7E6
 }
 
+      /* SCROLLBAR */
+
+      body::-webkit-scrollbar {
+        background-color: rgb(235, 178, 67, .1);
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background-color: rgb(235, 178, 67, .5);
+        border-radius: 10px;
+        transition: .5 ease;
+      }
+      body::-webkit-scrollbar-thumb:hover {
+        background-color: rgb(235, 178, 67);
+      }
+
 
       /* FOOTER */
 footer {
@@ -77,6 +92,7 @@ body {
 
       
       .desk-nav {
+        background-color: var(--background);
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-around;
@@ -168,16 +184,24 @@ body {
 }
 
 .spacer {
-  height: 80vh;
+  height: 120vh;
+  background-color: var(--text-color);
+  margin: 0 auto;
+  margin-top: 17vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .main-title {
   height: 60vh;
-  width: 100vw;
+  width: 98vw;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   margin-top: 15vh;
 }
 
@@ -203,6 +227,41 @@ body {
   color: white;
   background-color: #EBB243;
 }
+
+.meet-kristen {
+  width: 60vw;
+  height: 60vh;
+  display:flex;
+  justify-content: center;
+  padding: .5em;
+  align-items: center;
+  background-color: var(--background);
+  border-radius: 100px;
+}
+
+.meet-img-wrapper{
+  padding: 1em;
+}
+
+.meet-kristen-img {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 50%;
+}
+
+.meet-kristen-h {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  font-weight: 300;
+
+}
+
+.meet-kristen-text {
+  color: var(--text-color);
+  height: 35vh;
+  width: 15vw;
+}
+
 
 
 
